@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title> 
+
+</head>
+<body>
+<div>
+  <h1 id="one"></h1>
+  <button id="one1">Good morning</button>
+  <button id="one2">Good afternoon</button>
+  <button id="one3">Good evening</button>
+  <button id="one4">Good night</button>
+</div>
+
+<script>
+
+let goodmorning=(message, bgcolor, color)=>
+{
+  let tag=document.querySelector("#one");
+  tag.innerText=message;
+  tag.style.backgroundColor=bgcolor;
+  tag.style.color=color;
+}
+let first=document.querySelector("#one1");
+first.addEventListener('click',function(){
+goodmorning('good morning','red','black');
+});
+
+let second=document.querySelector("#one2");
+second.addEventListener('click',function(){
+goodmorning('good evening','black','red');
+});
+let third=document.querySelector("#one3");
+third.addEventListener('click',function(){
+goodmorning('good afternoon','red','yellow');
+});
+let four=document.querySelector("#one4");
+four.addEventListener('click',function(){
+goodmorning('good night','purple','white');
+});
+
+</script>
+</body>
+</html>
