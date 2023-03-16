@@ -1,20 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title></title> 
-
-</head>
-<body>
-<div>
-  <h1 id="one"></h1>
-  <button id="one1">Good morning</button>
-  <button id="one2">Good afternoon</button>
-  <button id="one3">Good evening</button>
-  <button id="one4">Good night</button>
-</div>
-
-<script>
-
 let goodmorning=(message, bgcolor, color)=>
 {
   let tag=document.querySelector("#one");
@@ -39,7 +22,3 @@ let four=document.querySelector("#one4");
 four.addEventListener('click',function(){
 goodmorning('good night','purple','white');
 });
-
-</script>
-</body>
-</html>
