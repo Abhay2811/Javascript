@@ -7,6 +7,7 @@
     justify-content: center;
     font-size: 3rem;
 }
+
 .counter-items {
     display: flex;
     justify-content: space-around;
