@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<style>
+	.highlight{
+    	color: red;
+	}
+</style>
+<body>
+	
+
+<p id="editor">This is some sample text. Replace the word "sample" with something else.</p>
+    <br>
+    <input type="text" id="findInput" placeholder="Find" onkeyup="highlightEditor()">
+    <input type="text" id="replaceInput" placeholder="Replace">
+    <button onclick="findAndReplace()">Replace</button>
+
+
+<script type="text/javascript" src="./find&replace.js"></script>
+</body>
+</html>
